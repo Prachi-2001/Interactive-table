@@ -1,8 +1,26 @@
-# React + Vite
+# Interactive table
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive table is a simple table with a sorting and searching functionality along with pagination.
 
-Currently, two official plugins are available:
+## Tech Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js/vite - Main frontend development framework
+- Tailwind CSS - for styling reusable components
+- Fetch API - for api fetching
+- Redux toolkit/RTK Query - State management, Rtk query also perform catching of retrived api data
+
+## Installation
+
+Clone the repositiory
+
+```sh
+git clone repo_copied_path
+```
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+cd path_where_package.json_exists
+npm install --legacy-peer-deps
+npm run dev
+```
